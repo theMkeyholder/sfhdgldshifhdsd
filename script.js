@@ -1,7 +1,7 @@
 dgi=(a)=>{return document.getElementById(a)}
 blah=(ele)=>{ele.innerHTML=ele.value}
 ireset=()=>{a.contentWindow.location.reload();setTimeout(()=>{Object.entries(window.iframeFunctions).forEach((x)=>{a.contentWindow.window[x[0]]=x[1]})},100);a.contentWindow.run=()=>{setTimeout(()=>{a.contentWindow.eval(window.parent.c.textContent)},100)}}
-del=(ele)=>{if(confirm("press cancel if you want to delete")){ele.parentElement.removeChild(ele)}}
+del=(ele)=>{if(!confirm("press cancel if you want to delete")){ele.parentElement.removeChild(ele)}}
 dellist=(ele)=>{del(ele.parenElement)}
 delllist=(ele)=>{dellist(ele.parentElement)}
 fdel=(ele)=>{ele.parentElement.removeChild(ele)}
