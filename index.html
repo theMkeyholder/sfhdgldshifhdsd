@@ -3,27 +3,49 @@
 <style>
 *{display: inline-block;vertical-align:top;}
 style {display:none}
-div {border:1px solid}
-li {border:1px solid;display: block}
+div {border:2px solid}
+li {border:2px solid;display: block}
  ul {
-  list-style-type: none;display: block;border:1px solid red;min-height: 1em;
+  list-style-type: none;display: block;border:2px solid red;min-height: 1em;
+ }
+ img {
+ height:1em;width:1em;display: inline-block
+ }
+ .blue {
+	border-color:blue
+ }
+ .noborder {
+	border:none
  }
 </style>
-<div>
+
+<a href="icantconveysarcasmwithoutquotesdocs.html">"docs"</a>
 <div>
 <p>main</p>
 <ul id="b">
-<li><div>alert('</div><div><ul class="todragable"><li><textarea rows="1" onchange="blah(this)"></textarea></li></ul></div><div>')</div>
-</li>
-<li><textarea rows="1" onchange="blah(this)"></textarea></li>
-<li><ul class="todragable"></ul></li></ul>
+<li><img src="no.png" onclick='dellist(this)'></img><div class="noborder">alert(</div><div class="noborder"><ul class="blue"><li><div><img src="no.png" onclick='delllist(this)'></img><textarea rows="1" onchange="blah(this)">''</textarea></div></li></ul></div><div class="noborder">)</div></li>
+<li><img src="no.png" onclick='dellist(this)'></img><div class="noborder">makeElement(</div><div class="noborder"><ul class="blue"><li><div><img src="no.png" onclick='delllist(this)'></img><textarea rows="1" onchange="blah(this)">''</textarea></div></li></ul></div><div class="noborder">)</div></li>
+<li><img src="no.png" onclick='dellist(this)'></img><div class="noborder">MER(</div><div class="noborder"><ul class="blue"><li><div><img src="no.png" onclick='delllist(this)'></img><textarea rows="1" onchange="blah(this)">''</textarea></div></li></ul></div><div class="noborder">)</div></li>
+<li><img src="no.png" onclick='dellist(this)'></img><div class="noborder">makeText(</div><div class="noborder"><ul class="blue"><li><div><img src="no.png" onclick='delllist(this)'></img><textarea rows="1" onchange="blah(this)">''</textarea></div></li></ul></div><div class="noborder">)</div></li>
+<li><img src="no.png" onclick='dellist(this)'></img><div class="noborder">MTR(</div><div class="noborder"><ul class="blue"><li><div><img src="no.png" onclick='delllist(this)'></img><textarea rows="1" onchange="blah(this)">''</textarea></div></li></ul></div><div class="noborder">)</div></li>
+<br>
+<li><img src="no.png" onclick='dellist(this)'></img><div class="noborder"><ul class="blue"></ul></div>+<div class="noborder"><ul class="blue"></ul></div>
+<li><img src="no.png" onclick='dellist(this)'></img><div class="noborder"><ul class="blue"></ul></div>-<div class="noborder"><ul class="blue"></ul></div>
+<li><img src="no.png" onclick='dellist(this)'></img><div class="noborder"><ul class="blue"></ul></div>*<div class="noborder"><ul class="blue"></ul></div>
+<li><img src="no.png" onclick='dellist(this)'></img><div class="noborder"><ul class="blue"></ul></div>/<div class="noborder"><ul class="blue"></ul></div>
+<li><img src="no.png" onclick='dellist(this)'></img><div class="noborder"><ul class="blue"></ul></div>%<div class="noborder"><ul class="blue"></ul></div>
+<li><img src="no.png" onclick='dellist(this)'></img><div class="noborder"><ul class="blue"></ul></div>**<div class="noborder"><ul class="blue"></ul></div>
+<li><img src="no.png" onclick='dellist(this)'></img><div class="noborder">sin(</div><div class="noborder"><ul class="blue"></ul></div><div class="noborder">)</div></li>
+<br>
+<li><img src="no.png" onclick='dellist(this)'></img><textarea rows="1" onchange="blah(this)"></textarea></li>
+<li><img src="no.png" onclick='dellist(this)'>;</li>
+<li><img src="no.png" onclick='dellist(this)'></img><ul class="todragable"></ul></li>
+<li><img src="no.png" onclick='dellist(this)'></img><ul class="blue"></ul></li></ul>
 </div>
 <div>
 <p>script</p>
 <ul id="c"></ul></div>
 <div>
-<p>trash</p>
-<ul id='d'></ul></div>
 <button onclick="run()">Run</button>
 <iframe id="a"></iframe>
 </div>
